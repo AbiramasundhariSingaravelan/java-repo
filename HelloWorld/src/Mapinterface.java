@@ -1,0 +1,27 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class Mapinterface {
+
+	@SuppressWarnings({ "removal", "unlikely-arg-type" })
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String,Integer> m = new HashMap<String,Integer>();
+		m.put("ABC", 100);
+		m.put("DEF", 101);
+		m.put("GHI", 102);
+		m.put("JKL", 103);
+		m.put("MNO", 104);
+		m.remove(new Integer(102));
+		System.out.println(m);
+		Set<Map.Entry<String,Integer>> s=m.entrySet();
+		//for each loop
+		for(Map.Entry<String, Integer> i: s)
+		{
+			System.out.println("Key Part: "+i.getKey() +" -- "+"Value Part: "+" -- "+i.getValue());
+		}
+		System.out.println(m.entrySet());
+	}
+
+}

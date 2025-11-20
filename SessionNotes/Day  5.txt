@@ -1,0 +1,60 @@
+Generics, templates, Tuple
+
+ 
+int a = 5; //line 1
+a++;//line 2
+a=6;//line 3
+a=a+100;//line 4
+a=++a;//line 5 
+
+array : n number of elements, similar to data type
+
+What is the value of a in line 4? => 106 
+
+
+a ? 100, 56.4322, 'a',"aaaa";
+
+Generics:
+	-> class, variable, method
+	-> Generic Variable:
+		-> <<datatype>> a;
+		-> <<Type>> a;
+		-> <T,U,S> <<varname>>;
+
+int a;
+T a;
+
+
+Collections:
+	1. Framework
+		import java.util.Scanner -> Package -> Collection of class
+					 -> Libraries -> Collection of Packages
+					 -> Framework -> Collection of framework
+	2. Generics based 
+	3. Compile - Time
+	4. List/ArrayList, Set/HashSet,TreeSet,EntrySet, Map, Queue, DEqueue
+
+int a[]=new int[5]; ? 
+int a[]=new int[50];
+	Collection Framework:
+		-> set of classes and interfaces that provide ds to store and manipulate
+		->List,Set,Map,Enquee,dequeue,
+
+		-> Iterator
+		-> next();
+		-> hasNext()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

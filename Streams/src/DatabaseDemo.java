@@ -1,0 +1,31 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class DatabaseDemo {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		String url="jdbc:mysql://localhost:3306/demo";
+		String username="root";
+		String password="arthi";
+		String query="select * from student";
+		//Load the driver
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		//Establish Connection
+		Connection c=DriverManager.getConnection(url,username,password);
+		//Create a statement
+		Statement st=c.createStatement();
+		//Execute query
+		ResultSet rs=st.executeQuery(query);
+		while(rs.next())
+		{
+			int id=rs.getInt(1);
+			String sname=rs.getString(2);
+			System.out.println("ID: "+id+" NAME: "+sname);
+		}
+	}
+
+}

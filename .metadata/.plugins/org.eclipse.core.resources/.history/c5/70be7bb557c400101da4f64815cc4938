@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Mapinterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String,Integer> m = new HashMap<String,Integer>();
+		m.put("ABC", 100);
+		m.put("DEF", 101);
+		m.put("GHI", 102);
+		m.put("JKL", 103);
+		m.put("MNO", 104);
+		System.out.println(m.entrySet());
+	}
+
+}

@@ -1,0 +1,155 @@
+Full Stack JAVA with LLM
+	->Core Java Programming
+		->History of JAVA
+		->Platform Independency
+		->JDK, JVM, JRE
+		->Java Structure
+		->Data Types, Variables, Operators
+		->Printing
+		->Reading
+		->Decision Making
+		->Looping
+		->OOPS
+		->Generics
+		->Collection
+		->File Handling
+		->Exception Handling
+		->JDBC Part
+History of JAVA:
+	James Gosling -> Sun Microsystem ->1995
+	Oracle,8 11
+	oak -> "java" island -> tree->coffee
+Platform Independency :
+
+D:/c programs/hello.c 
+void   main()
+{
+
+	printf("hello");
+}
+
+compile -> error / warning -> D:/c programs/hello.obj
+Execution / Run -> Output
+
+
+hello.java->Compile->hello.class -> 01
+
+windowsos m/c-> hello.java  -> compile -> hello.class
+
+
+linuxm/c 
+solaris m/c
+
+
+
+2 + 3 =5 =>->Compilation (java) ->.class execute 
+
+D:/java/hello.java
+	->compile
+	->hello.class -> 000111000101010->platform run
+
+JVM,JDK, JRE:
+	1. Java Virtual Machine
+	2. JAva Development Kit
+	3. Java RunTime Environment
+
+100 -> string
+
+100 + 100 => 200 => 100100
+
+
+Function declaration -> optional 
+Function Definition -> void add(){  print (a+b); }
+Function Calling -> needed to execute the function . 
+		-> obj.name();
+
+
+
+Variable Declaration:
+	DataType <<varname>>
+
+integer -> Whole numbers
+float -> Decimal -> 12.56
+double -> Decimal ->12.5678909876543
+char -> single character
+String -> sequence of characters
+long -> 
+
+long int
+short int
+
+
+object creation:
+   <<classname>> <<objname>>=new <<classname>>():
+scanner s = new Scanner();
+
+
+
+Operators:
+1. Arithmetic Operators (+,-,*,/,%) => 4/2=2, 4 % 2 =0
+2. Relational Operators (<,>,<=,>=,==,!=)
+3. Increment/Decrement Operator (++,--)
+	->Pre increment => ++a =>before printing 
+	->post increment =>a++ => after printing
+	->pre decrement
+	->post decrement
+4. assignment Operators
+
+Decision Making Statements:
+	IF
+		-> Simple If -> if (cond) {. .... }
+		-> If-Else if(cond) {.....} else {.....}
+		-> Else If Ladder 
+			if(cond)
+			{
+
+			}
+			else if(cond)
+			{
+
+			}
+			else if(cond)
+			{
+
+			}
+			else
+			{
+			}
+		-> Nested If
+			if(cond)
+			{
+				if(cond)
+				{
+				}	
+			}
+   	Switch
+Looping Statements:
+
+	while
+	do-while
+	for()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

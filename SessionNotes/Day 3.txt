@@ -1,0 +1,112 @@
+int a =5,100,500,400;
+a++;
+a=100;
+a=150+sum;
+
+Arrays:
+	derived data type -> collection of multiple items of similar data type
+
+int a ={100,200,300,400,500,.........n}
+int a ={100,200.45,300,400,500,.........n}
+	Syntax : <<datatype>> <<var_name>> [size] = { values};
+			int a[]={10,20,30,40,50}
+                              a[0]=10
+			     -a[1]=20
+ 			      a[2]=30a[3]-a[4]
+
+				Total number of elements = 5; 
+				last index = 4;
+			int a[]=new int[100];
+	for(newvar : exvar)
+	{
+	}
+
+
+Object Orientation:
+	1. Object - Real Time entity
+\ & Classes - Collection of data members and member functions
+	2. Encapsulation
+			wrapping up of data and entities together
+			steps :
+				1. define all members as private.
+				2. use getters/setters statement
+	3. Polymorphism
+		poly -> Many, Morph -> Shapes
+		functions:
+			building block
+			user-defined functions
+				<<return_type>> <name_of_the_function>>(argument....list)
+				{
+
+				}
+		Constructor:
+			->similar to functions
+			->used for memory allocation
+			->Name of class -> name of constructor
+			->no return type
+			->no explicit calling//automatically called whenever an object is created
+		Generally:
+			Function Overloading
+				1. Function name must be similar
+				2. Must be defined in same class
+				3. May differ by number or type of arguments
+			Constructor Overloading
+	4. Inheritance
+		->relationship
+		->process of creating a new class from existing class
+		-> Class A
+		   {
+
+   		    }
+		-> New Class -> Child Class, Derived Class, Subclass
+		-> Existing Class -> Parent Class, Base Class, Super Class
+		->Types of Inheritance:
+			1. Single Inheritance -> One Base Class -> Only One Derived Class
+			2. Multiple Inheritance -> More than Base Class -> Only One Derived Class
+				->interfaces
+			3. Multilevel Inheritance -> Base Class -> Derived Class -> Dc1 ->Dc2->..............n
+			4. Hybrid Inheritance -> Combination of any type of inheritance
+			5. Hierarchical Inheritance -> One Base class -> Multiple Derived Class
+		->Syntax of Creating Derived Class:
+			class <<derived_class_name>> extends <<base_class_name>>
+			Sorting
+				
+			swapping
+				a=5
+				b=10
+				a=10;b=5
+		->Interfaces:
+			1. similar to classes
+			2. method declaration alone is applicable
+			3. Interface instantiation is not possible
+
+
+
+Inheritance:
+		Derived Class object is required.
+	5. Abstraction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

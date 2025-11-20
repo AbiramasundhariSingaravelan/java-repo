@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\WELCOME\FSELLM\.metadata\.plugins\org.eclipse.jdt.core
+981837304.index
+1306097640.index
+1865797976.index
+2380175872.index
