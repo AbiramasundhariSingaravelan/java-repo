@@ -19,4 +19,14 @@
     <servlet-name>AddServlet</servlet-name>
     <url-pattern>/add</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewServlet</display-name>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>com.example.demo.controller.ViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/view</url-pattern>
+  </servlet-mapping>
 </web-app>
