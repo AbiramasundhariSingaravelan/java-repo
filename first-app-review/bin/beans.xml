@@ -3,8 +3,22 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="courseBean" class="com.example.demo.Courses">
+		<property name="cId" value="100"></property>
+		<property name="cName" value="JAVA"/>	
+	</bean>
+	<bean id="courseBean1" class="com.example.demo.Courses">
+		<property name="cId" value="101"></property>
+		<property name="cName" value="PHP"/>	
+	</bean>
 	<bean id="sbean" class="com.example.demo.Student">
-		<property name="sid" value="100"></property>
-		<property name="sname" value="arthi"></property>
+		<property name="sId"	value="100"/>
+		<property name="sName" value="Arthi"/>
+		<property name="courses" >
+			<list>
+				<ref bean="CourseBean"/>
+				<ref bean="CourseBean2"/>
+			</list>
+		</property>
 	</bean>
 </beans>

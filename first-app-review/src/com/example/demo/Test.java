@@ -8,9 +8,9 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ApplicationContext ac=new ClassPathXmlApplicationContext("beans.xml");;
-		Student s=(Student)ac.getBean("sbean");
-		s.display();
+		ApplicationContext ac=new ClassPathXmlApplicationContext("beans1.xml");
+		NewStudent ns=(NewStudent)ac.getBean("studentBean");
+		ns.display();
 	}
 
 }

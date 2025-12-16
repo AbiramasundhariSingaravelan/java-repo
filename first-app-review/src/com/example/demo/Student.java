@@ -1,15 +1,17 @@
 package com.example.demo;
 
+import java.util.List;
+
 public class Student {
 
-	private int sid;
+	private int id;
 	private String sname;
-	
-	public int getSid() {
-		return sid;
+	private List<Courses> courses;
+	public int getId() {
+		return id;
 	}
-	public void setSid(int sid) {
-		this.sid = sid;
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getSname() {
 		return sname;
@@ -17,9 +19,15 @@ public class Student {
 	public void setSname(String sname) {
 		this.sname = sname;
 	}
-	public void display()
-	{
-		System.out.println("ID:" +sid);
-		System.out.println("NAME:"+sname);
+	public List<Courses> getCourses() {
+		return courses;
 	}
+	public void setCourses(List<Courses> courses) {
+		this.courses = courses;
+	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", sname=" + sname + ", courses=" + courses + "]";
+	}
+	
 }
